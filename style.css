@@ -1,148 +1,136 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
-*body {
-  margin: 0;
-  padding: 0;
-  font-family: "Orbitron", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  margin-left: 350px;
-  padding: 0;
-  margin-top: -27px;
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.center {
-  margin: auto;
-  padding: 10px 24px;
+.navbar-container img{
+    height: 40px;
+    margin-left: 100px;
 }
+.nav-button{
+    color: gray;
+    font-family: sans-serif;
 
-li {
-  float: left;
 }
-.list-item {
-  margin: 20px;
-  margin-left: 70px;
-  margin-bottom: 20px;
-  margin-top: 0;
-  font-size: 20px;
+.list{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
 }
-.list-item:hover {
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: underline;
+.list-item{
+    margin: 0px  40px;
+    font-size: 20px;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.list-item:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
 }
-
-li a:hover {
-  background-color: #111;
+.button-group{
+    display: flex;
+    margin: 0px 10px;
+    margin-right: 100px;
 }
-.logo1 {
-  height: 35px;
-  margin-left: 48px;
-  margin-top: 5px;
+.search-icon{
+    margin-right: 10px;
+    margin-top: 5px;
 }
-.logo {
-  margin-left: 200px;
-  margin-top: auto;
-  margin-bottom: -4px;
+.nav-button{
+    padding: 5px 24px;
+    border-radius: 8px;
 }
-.nav-button {
-  background-color: white;
-  font-size: 13px;
-  text-align: center;
-  padding: 8px 24px;
-  border: 2px solid black;
-  border-radius: 10px;
-  color: grey;
-  margin-left: 6px;
+.hero-container{
+    display: flex;
 }
-.square {
-  margin-left: 18px;
+.square img{
+    margin: 280px 0px 0px 250px;
+    height: 350px;
 }
-.square1 {
-  margin-left: 220px;
-  margin-bottom: 0px;
-  margin-top: 325px;
-  height: 300px;
+.person-image{
+    position: relative;
+    right: 755px;
+    top: 115px;
+    height: 456px;
 }
-
-.globe {
-  height: 45px;
-  margin-left: 172px;
-  margin-bottom: 527px;
+.hero-container-right{
+    position: absolute;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 200px 700px;
 }
-.hero-heading {
-  margin-left: 650px;
-  font-size: 75px;
-  margin-top: -984px;
-  font-family: sans-serif;
+.hero-heading{
+    font-size: 55px;
+    width: 750px;
 }
-.hero-description {
-  margin-left: 548px;
-  margin-top: -27px;
-  text-align: center;
+.hero-description{
+    width: 555px;
+    margin-top: 20px;
+    margin-right: 65px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    font-family: sans-serif;
+    color: gray;
+    font-weight: 100;
 }
-.button-email {
-  margin-left: 870px;
-  margin-top: 50px;
-  padding: 2px 24px;
-  border: 2px solid black;
-  border-radius: 8px;
-  background-color: white;
-  color: gray;
-  font-size: 16px;
-  cursor: pointer;
-  font-family: sans-serif;
+.globe{
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 60px;
 }
-.button-join {
-  padding: 2px 24px;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  font-family: sans-serif;
+.star{
+    height: 60px;
+    position: relative;
+    left: 700px;
+    top: 100px;
 }
-.contact-heading {
-  float: right;
-  margin-right: 427px;
-  font-size: 20px;
-  margin-top: 80px;
-  color: grey;
-  margin-left: 10px;
+.btn{
+    margin-top: 50px;
+    margin-right: 90px;
 }
-.icons {
-  float: right;
-  margin-top: 115px;
-  margin-left: 0px;
-  margin-right: -135px;
+.button-email{
+    padding: 4px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0px 10px;
+    background: #fff;
+    color: gray;
 }
-.icon1 {
-  height: 35px;
+.button-join{
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
 }
-.img {
-  height: 500px;
-  margin-bottom: 580px;
-  margin-top: -555px;
-  margin-left: 64px;
+.contact-btn{
+    margin-top: 70px;
+    margin-right: 100px;
 }
-.star {
-  height: 40px;
-  margin-left: 80px;
-  margin-bottom: 26px;
+.contact-heading{
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
 }
-.star1 {
-  float: right;
-  height: 45px;
-  margin-bottom: 26px;
-  margin-left: 2px;
-  margin-right: 140px;
-  margin-top: 97px;
+.icons{
+    margin-top: 10px;
+   
+}
+.icons > span > img{
+    padding: 0px 5px;
+}
+.star1{
+    margin-right: 200px;
+    position: relative;
+    right: 300px;
+    top: 100px;
 }
